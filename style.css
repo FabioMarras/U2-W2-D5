@@ -74,7 +74,9 @@ article {
 .w20 {
   width: 20%;
 }
-
+.xx {
+  background-color: none;
+}
 @media screen and (max-width: 700px) {
   .footerMobile {
     align-items: center;
@@ -89,5 +91,11 @@ article {
   }
   .SettingPageStart2 {
     width: 100% !important;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .buttonCollapse {
+    background-color: white;
   }
 }
